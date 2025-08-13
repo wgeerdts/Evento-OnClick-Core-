@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3f3f3;
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex-container {
+    width: 1000px;
+    margin: 0 60px;
+}
+.flex-container.main{
+    width: 1290px;
+}
+
+.flex-container,
+.nav-links,
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 120px
+}
+
+.nav {
+    position: relative;
+    justify-content: space-between;
+    height: 80px;
+    background-color: #a5a5a5;
+    margin: 0 60px;
+}
+
+.nav-links {
+    list-style-type: none;
+}
+
+.btn.sesion{
+    position: absolute;
+    right: 20px;
+    top: 25px;
+}
+.btn {
+    height: 30px;
+    width: 100px;
+    color: #fff;
+    background-color: #007bff;
+    border: black 2px solid;
+    font-size: 12px;
+}
+
+.flex-container.main {
+    align-items: flex-start;
+    gap: 0;
+}
+
+#busqueda {
+    width: 500px;
+}
+
+.col-2 {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.col-1 {
+    flex: 1;
+}
+
+.card {
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid black;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+h3 {
+    padding: 10px 0;
+}
+
+em {
+    font-size: 11px;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 12px;
+}
+
+.like {
+    background-color: #fcfcba;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 3px 8px;
+    font-size: 12px;
+}
+
+.definicion {
+    background-color: green;
+    color: white;
+    padding: 5px 30px;
+    font-size: 10px;
+}
